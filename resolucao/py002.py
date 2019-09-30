@@ -1,7 +1,7 @@
 print("="*60)
 
 salario = float(input("{} Digite o salario liquido: ".format(" "*5)))
-
+#comentario
 print("{} O salario liquido é: R${:.2f}".format(" "*5, salario))
 print("{} Gastos e: R${:.2f}".format(" "*5, salario*0.5))
 print("{} Investimentos LP: R${:.2f}".format(" "*5, salario*0.2))
