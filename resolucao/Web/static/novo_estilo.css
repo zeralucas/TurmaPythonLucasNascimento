@@ -1,0 +1,85 @@
+body{
+    /* background: #4d4b4b; */
+    background: #ffffff;
+    /* background-image: url("../static/foto/vasco.png") */
+}
+.cabecalho, .novo{
+    width: 60%;
+    margin: auto;
+}
+.novo a{
+    text-transform: uppercase;
+    background: #fff;
+    border: 1px solid #0f8300;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+.novo a:hover{
+    background: #0f8300;
+    color: #fff;
+}
+.tabela{
+    width: 20%;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    margin-left: -180px;
+} 
+td{
+    color: #ffffff;
+}
+.voltar{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    padding: 3px;
+    border: 1px solid #000;
+    color: black;
+    text-decoration: none;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+.labels{
+    width: 20%;
+    margin: auto;
+    text-align: right;
+    color: #000000;
+    display: inline-block;
+}
+.text-box{
+    width: 40%;
+    display: inline-block;
+    margin-top: 1em;
+
+}
+.botao{
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 145px;
+}
+.logoVascao{
+    width: 10%;
+    height: 15em;
+    float: left;
+}
+.logoVascao img{
+    width: 8em;
+}
+.conteudo{
+    width: 80%;
+    float: left;
+}
+input{
+    background-color: #000000;
+    color: white; 
+}
+
+    

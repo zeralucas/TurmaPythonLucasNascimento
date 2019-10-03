@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>{{Nome}}</title>
+        <link rel="stylesheet" href="../static/estilos.css">
+    </head>
+
+    <body>
+        <div class="logoVascao">
+            <img src="../static/foto/vasco.png" alt="">            
+        </div>
+        <div class="conteudo">
+
+            <div class="Cabecalho">
+                <h1>{{Nome}}</h1>
+            </div>
+            <div class="novo">
+                <a href="/novo">Novo Torcedor</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for a in lista %}
+                    <tr>
+                        <td>{{a.nome_completo()}}</td>
+                        <td>{{a.Telefone}}</td>
+                    </tr>
+                    {% endfor %}            
+                </tbody>
+            </table>
+        </div>
+        </body>
+        </html>

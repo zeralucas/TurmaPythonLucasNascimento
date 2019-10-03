@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="../static/novo_estilo.css">
+</head>
+
+<body>
+    <div class="logoVascao">
+            <img src="../static/foto/vasco.png" alt="">            
+    </div>
+    <div class="conteudo">
+        <h1>Novo Torcedor</h1>
+        <hr>
+        <form action="/salvar" method="POST">
+            <div class="labels">
+                <label for="">Nome :</label></td>
+            </div>
+            <input type="text" name="nome" class="text-box"> <br />
+            <div class="labels">
+                <label for="">Sobrenome :</label>
+            </div>
+            <input type="text" name="sobrenome" class="text-box"> <br />
+            <div class="labels">
+                <label for="">Telefone :</label>
+            </div>
+            <input type="text" name="telefone" class="text-box"> <br />
+            <div class="botao">
+                <input class="voltar" type="submit" value="Salvar">
+                <a class="voltar" href="/">Voltar</a>
+            </div>           
+        </form>
+        <hr>
+    </div>
+    </body>
+</html>
