@@ -1,0 +1,22 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+                <div>
+
+                    <h1>Você deseja escolher qual opção?</h1>
+                    <form action="/Efetuar Pedido" method="POST">
+                        <div class="pedido">    
+                            <label for="">Código</label> 
+                        </div>    
+                        <input type="text" name="cod">
+                        
+                        <div class="pedido">
+                            <label for="">Quantidade</label>
+                        </div>
+                        <input type="text" name="quantidade">
+                        <br>
+                        <br>
+                        <input type="submit" value="Pedido">
+
+                    </div>
+                
+{% endblock %}

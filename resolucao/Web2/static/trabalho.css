@@ -1,0 +1,15 @@
+body{
+    margin: 0%
+}
+.cabecalho{
+    width: 100%;
+    background: #000000;
+    height: 100px;
+}
+.cabecalho img{
+    margin: 8px 0 0 15px;
+    width: 200px;
+}
+ul li, ol li{
+    display: inline-block
+}

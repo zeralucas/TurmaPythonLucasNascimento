@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Hbsis - {{nome_pag}}</title>
+    <link rel="stylesheet" href="../static/tbl.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="/">
+                <img src="../static/img/patagonia.png" alt="">
+            </a>
+        </div>
+        <div class="Menu">
+            <ul>
+                <li>
+                    <a href="/cadastrar">Cadastrar Cerveja</a>
+                </li>
+                <li>
+                    <a href="/listar">Listar Cerveja</a>
+                </li>
+                <li>
+                    <a href="/fazer-pedido">Fazer Pedido</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div id="body">
+        {% block conteudo %}
+
+        {% endblock %}
+    </div>
+</body>
+
+</html>
